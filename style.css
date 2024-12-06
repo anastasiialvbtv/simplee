@@ -1,0 +1,332 @@
+@font-face {
+     
+    font-family: 'Roboto';
+    src: url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2);
+}
+
+* { /*обращение ко всему*/
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    
+    width: 140px;
+    margin-left: 165px; /*отступ слева*/
+    z-index: 2;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex; /*делаю контент гибким*/
+    width: 100vw;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    align-items: center; /*расположение контента по центру*/
+    height: 80px;  
+    flex-wrap: nowrap; /*все в одну строку*/
+}
+
+nav {
+    font-size: 20px;
+    width: 674px;
+    display: flex; /*делаю контент гибким*/
+    justify-content: space-between; /*пиклеиваю к краям*/
+    margin-right: 165px;
+}
+
+.block1{
+    display: flex; /*делаю контент гибким*/
+    padding: 0 165px;
+    width: 99vw;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    background-color: #ffffff;
+}
+
+.block2{
+    display: flex; /*делаю контент гибким*/
+    padding: 0 165px;  /*внутренний отступ*/
+    width: 100vw;
+    height: 973px;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    flex-direction: column; /*расположение контента в столбик*/
+    background-color: #EBEBEB;
+}
+
+.block3{
+    display: flex; /*делаю контент гибким*/
+    width: 100vw;
+    height: 645px;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    flex-direction: row; 
+    background-color: #ffffff;
+    padding: 90px 165px; 
+}
+.block3>div{
+    max-width: 255px;
+}
+
+.block4{
+    display: flex; /*делаю контент гибким*/
+    padding: 90px 165px;  /*внутренний отступ*/
+    width: 100vw;
+    height: 315px;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    flex-direction: row; /*расположение контента в длину*/
+    background-color: #EBEBEB;
+}
+
+.block5{
+    display: flex; /*делаю контент гибким*/
+    width: 100vw;
+    height: 500px;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 0 165px; 
+}
+
+.zagolovok1{
+    width:444px;
+    height:120px;
+    font-size: 60px;
+    line-height:60px;
+    color: #4C5866;
+}
+
+.text{
+    width:445px;
+    height:110px;
+    font-size: 18px;
+    line-height:27px;
+    color: #85859B;
+    margin-top: 25px; /*отступ сверху*/
+}
+  
+
+button{
+    width:255px;
+    height:70px;
+    font-size: 20px;
+    line-height:23.44px;
+    background-color: rgb(255, 255, 255);
+    color: #7875fe;
+    border: 1px #7875fe solid;
+    margin-top: 30px;
+}
+
+.text1{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/
+    margin-top: 130px;
+}
+.box1{
+    margin-top: 130px;
+}
+
+.verh{
+    width:100%;
+    height:139px;
+    font-size: 18px;
+    line-height:27px;
+    color: #85859B;
+    margin-top: 90px;
+    display: flex;  /*делаю контент гибким*/
+    flex-direction: row;  /*расположение контента в строку*/
+    justify-content: space-between; /*пиклеиваю к краям*/
+}
+
+.v{
+    color: #66666666;
+    width:26px;
+    height:27px;
+    font-size: 18px;
+    line-height:27px;
+    margin-top: 18px;
+}
+
+.gr1{
+    border-top: 1px solid #bebebe;
+    display: flex; /*делаю контент гибким*/
+    flex-direction: row; /*расположение контента в строку*/
+    width:350px;
+    padding: 19px 0 0 0;
+}
+
+.v1text{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/
+}
+
+.gr2{
+    border-top: 1px solid #bebebe;
+    display: flex; /*делаю контент гибким*/
+    flex-direction: row; /*расположение контента в строку*/
+    width:350px;
+    padding: 19px 0 0 0;
+}
+
+.v2text{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/
+}
+
+
+.gr3{
+    border-top: 1px solid #bebebe;
+    display: flex; /*делаю контент гибким*/
+    flex-direction: row; /*расположение контента в строку*/
+    width:350px;
+    padding: 19px 0 0 0;
+}
+
+.v3text{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/
+}
+
+.zagolovok{
+    width:350px;
+    height:74px;
+    font-size: 40px;
+    line-height:40px;
+    color: #666666;
+    margin-top: 30px; 
+}
+
+.nizz{
+    display: flex;  /*делаю контент гибким*/
+    margin-top: 90px;
+    flex-direction: row; /*расположение контента в строку*/
+    justify-content: space-between; /*пиклеиваю к краям*/
+}
+
+.kn{
+    font-size: 20px;
+    line-height:23.44px;
+    background-color: rgb(255, 255, 255);
+    color: #7875fe;
+    margin-top: 60px;
+}
+
+.text3{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/
+    font-size: 14px;
+    line-height:16.41px;
+    color: #B5B5BD;
+}
+
+.text2{
+    font-size: 30px;
+    line-height:35.16px;
+    color: #666666;
+    margin-bottom: 8px ;
+    margin-top: 20px;
+}
+
+.text4{
+
+    margin-top: 8px;
+    width:445px;
+    height:110px;
+    font-size: 18px;
+    color: #85859B;
+    line-height: 30.6px;
+}
+.upakovka{
+    width: 256px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hahnemuehle>img{
+    width:197px;
+    height:55px;   
+}
+
+.canson>img{
+    width:186px;
+    height:53px;   
+}
+
+.royal>img{
+    width:225px;
+    height:21px;   
+}
+
+.fabriano>img{
+    width:209px;
+    height:26px;   
+}
+
+.hahnemuehle, .canse, .royal, .fabriano{
+    width:255px;
+    height:135px;  
+    border:1px solid #c4c4c4;
+    display: flex;
+    align-items: center; /*расположение контента по центру(горизонталь)*/
+    justify-content: center;/*расположение контента по центру(вертикаль)*/
+}
+
+.vnutr{
+
+    display: flex;
+}
+
+.levo{
+    display: flex; /*делаю контент гибким*/
+    flex-direction: column; /*расположение контента в столбик*/  
+    margin-top: 114px;
+}
+
+.pravo>img{
+margin-top: 90px;
+} 
+
+
+.ser{
+    background-color: #4C5866;
+    display: flex; /*делаю контент гибким*/
+    width: 100vw;
+    justify-content: space-between; /*пиклеиваю к краям*/
+    align-items: center; /*расположение контента по центру*/
+    height: 101px;  
+    font-size: 13px;
+    flex-wrap: nowrap; /*все в одну строку*/
+}
+.bel{
+    background-color: #c4c4c4;
+    display: flex; /*делаю контент гибким*/
+    width: 100vw;
+    align-items: center; /*расположение контента по центру высоты*/
+    justify-content: center;
+    height: 21px;  
+    color:#4C5866;
+}
+
+.text5{
+    width:445px;
+    height:110px;
+    font-size: 18px;
+    line-height:27px;
+    color: #85859B;
+    margin-top: -24px; /*отступ сверху*/
+}
+
+.logotips{
+    width:186px;
+    height:24px; 
+    display: flex; /*делаю контент гибким*/
+    flex-wrap: nowrap; /*все в одну строку*/
+}
+
+@media(max-widht:768px){
+    .block1{
+        height: 416px;
+    }
+}
